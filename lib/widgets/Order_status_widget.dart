@@ -82,6 +82,16 @@ class OrderStatusWidget extends StatelessWidget {
                     height: 30,
                     width: 2,
                     color: green,
+                  ),
+                  Container(
+                    height: 32,
+                    width: 32,
+                    child: Image.asset('assets/icons/green_check.png'),
+                  ),
+                  Container(
+                    height: 30,
+                    width: 2,
+                    color: green,
                   )
                 ],
               ),
@@ -100,22 +110,33 @@ class OrderStatusWidget extends StatelessWidget {
                     height: 20,
                   ),
                   Text(
-                    "Payment",
+                    "Order Placed",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    "Completed",
+                    "on Rupeez",
                     style: TextStyle(color: Colors.grey),
                   ),
                   const SizedBox(
                     height: 20,
                   ),
                   Text(
-                    "Payment",
+                    "Order accepted",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    "Completed",
+                    "by axis",
+                    style: TextStyle(color: Colors.grey),
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    "Units allocated",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    "by axis",
                     style: TextStyle(color: Colors.grey),
                   ),
                 ],
