@@ -25,12 +25,17 @@ class OrderStatusWidget extends StatelessWidget {
               Image.asset('assets/icons/Sucess.png'),
             ],
           ),
+          // modified this widget
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Text("1 May 2021\n12.00 AM"),
                   const SizedBox(
                     height: 20,
                   ),
@@ -139,6 +144,7 @@ class OrderStatusWidget extends StatelessWidget {
                     "by axis",
                     style: TextStyle(color: Colors.grey),
                   ),
+                  SizedBox.shrink(),
                 ],
               ),
             ],
